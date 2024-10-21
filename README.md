@@ -1,20 +1,24 @@
 <h1 align="center">Hi 👋, I'm Sivaraj</h1>
 <h3 align="center">A passionate Software Developer</h3>
 
-- 🌱 I’m currently learning **DSA**
-- 👯 I’m looking to collaborate on **ML/AI**
-- 💬 Ask me about **Tech**
-- 📫 How to reach me [LinkedIn](https://www.linkedin.com/in/sivaraj-s-16-web/)
+- 🌱 I’m currently learning **DSA**  
+- 👯 I’m looking to collaborate on **ML/AI**  
+- 💬 Ask me about **Tech**  
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/sivaraj-s-16-web/)  
+
+<br/>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://linkedin.com/in/sivaraj-s" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sivaraj s" height="30" width="40" />
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn - Sivaraj S" height="30" width="40" />
   </a>
   <a href="https://www.leetcode.com/sivaraj-s" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="sivaraj s" height="30" width="40" />
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode - Sivaraj S" height="30" width="40" />
   </a>
 </p>
+
+<br/>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
@@ -77,7 +81,8 @@
   </a>
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sivaraj16&show_icons=true&locale=en&layout=compact" alt="sivaraj16" /></p>
+<br/>
 
-
-
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sivaraj16&show_icons=true&locale=en&layout=compact" alt="sivaraj16" />
+</p>
