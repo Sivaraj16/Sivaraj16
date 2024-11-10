@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Sivaraj</h1>
 <h3 align="center">A passionate Software Developer</h3>
 
-- 🌱 I’m currently learning **DSA**
 - 👯 I’m looking to collaborate on **ML/AI**
 - 💬 Ask me about **Tech**
 - 📫 How to reach me [LinkedIn](https://www.linkedin.com/in/sivaraj-s-16-web/)
@@ -78,4 +77,7 @@
 
 <h2 align="center">🐍 My Contributions Snake</h2>
 
-![Snake animation](https://github.com/Sivaraj16/Sivaraj16/blob/output/github-contribution-grid-snake.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sivaraj16/Sivaraj16/output/github-contribution-grid-snake.gif">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Sivaraj16/Sivaraj16/output/github-contribution-grid-snake.gif">
+</picture>
