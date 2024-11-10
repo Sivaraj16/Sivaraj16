@@ -75,3 +75,7 @@
 </p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sivaraj16&show_icons=true&locale=en&layout=compact" alt="sivaraj16" /></p>
+
+<h2 align="center">🐍 My Contributions Snake</h2>
+
+![Snake animation](https://github.com/Sivaraj16/Sivaraj16/blob/output/github-contribution-grid-snake.gif)
