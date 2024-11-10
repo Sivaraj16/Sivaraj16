@@ -17,11 +17,15 @@ jobs:
       - uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: Sivaraj16  # your GitHub username
+          github_user_name: Sivaraj16
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
+            dist/github-contribution-grid-snake.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?palette=github-dark
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          github_dark_user_name: Sivaraj16
+          color_snake: #39D353
+          color_dots: #39D353, #26A641, #006D32, #0E4429
           
       # Deploy to GitHub Pages
       - name: Push to GitHub Pages
