@@ -8,10 +8,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # Checks-out repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
 
       # Generate Snake
       - uses: Platane/snk@v3
@@ -21,6 +26,13 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=0x39D353&color_dots=#39D353,#26A641,#006D32,#0E4429&background=#0D1117
             dist/github-contribution-grid-snake.gif?color_snake=0x39D353&color_dots=#39D353,#26A641,#006D32,#0E4429&background=#0D1117
+
+      # Create output branch if it doesn't exist
+      - name: Create output branch
+        run: |
+          git checkout --orphan output || git checkout output
+          git reset --hard
+          git commit --allow-empty -m "Create output branch"
           
       # Deploy to GitHub Pages
       - name: Push to GitHub Pages
@@ -31,11 +43,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Commit and push changes
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "Sivaraj16"
-          git config --global user.email "sivaraj16012005@gmail.com"
-          git add .
-          git commit -m "Generate Snake Animation"
-          git push origin output
+      # Push using action instead of git command
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: output
+          force: true
