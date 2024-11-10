@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      # Check out the repository to give access to the job
       - uses: actions/checkout@v3
 
-      # Generates the snake
+      # Generate the snake
       - uses: Platane/snk@master
         id: snake-gif
         with:
@@ -22,10 +22,10 @@ jobs:
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Show the status of the build. Makes it easier for debugging (if there are any issues).
+      # Show the status of the build for debugging
       - run: git status
 
-      # Push the changes
+      # Push the changes to the repository
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
