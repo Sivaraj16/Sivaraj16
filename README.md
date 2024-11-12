@@ -76,8 +76,10 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sivaraj16&show_icons=true&locale=en&layout=compact" alt="sivaraj16" /></p>
 
 <h2 align="center">🐍 My Contributions Snake</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sivaraj16/Sivaraj16/output/github-contribution-grid-snake.gif">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Sivaraj16/Sivaraj16/output/github-contribution-grid-snake.gif">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/D-4-DIBAKAR/D-4-DIBAKAR/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/D-4-DIBAKAR/D-4-DIBAKAR/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/D-4-DIBAKAR/D-4-DIBAKAR/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
